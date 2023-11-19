@@ -16,7 +16,7 @@ import 'swiper/css/pagination';
 import '@/assets/css/scrollbar.css';
 import '@/assets/css/globals.css';
 import '@/assets/css/range-slider.css';
-import { Chat } from '@pushprotocol/uiweb';
+// import { Chat } from '@pushprotocol/uiweb';
 
 const fira_code = Fira_Code({
   weight: ['400', '500', '600', '700'],
@@ -57,10 +57,10 @@ export default function RootLayout({
             </WagmiConfig>
           </ThemeProvider>
         </QueryClientProvider>
-        <Chat
+        {/* <Chat
           account="0x20613aBe93e4611Cf547b4395E4248c6129c8697" //user address
           supportAddress="0x20613aBe93e4611Cf547b4395E4248c6129c8697  " //support address
-        />
+        /> */}
       </body>
     </html>
   );
